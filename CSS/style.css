@@ -1,0 +1,14 @@
+
+.card-image{
+    width: 140px;
+}
+
+.card{
+    width: 190px;
+}
+
+.pokedex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
