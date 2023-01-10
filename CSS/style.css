@@ -1,4 +1,17 @@
+/*Estilização da imagem de fundo do site como um todo*/
+body{
+    background-image: url(../IMG/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+/*Estilização dos itens do card*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card-image{
     width: 160px;
     margin: 0 auto;
@@ -25,9 +38,12 @@
     gap: 24px;
 }
 
-
-.container{
+/*Estilização da logo*/
+.logo{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+img{    
+    width: 320px;
 }
