@@ -1,14 +1,33 @@
 
 .card-image{
-    width: 140px;
+    width: 160px;
+    margin: 0 auto;
 }
 
 .card{
-    width: 190px;
+    width: 220px;
+    height: 248px;
 }
 
+.card-title{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.card-subtitle{
+    text-transform: capitalize;
+}
 .pokedex{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

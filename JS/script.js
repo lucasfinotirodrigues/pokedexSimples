@@ -6,12 +6,12 @@ const generatePokemonPromisses = () => Array(151).fill()
 
 
 const generateHTML = pokemons => pokemons.reduce((acc, { name, id, types}) =>{
-    const elementTypes = types.map(typeInfo => typeInfo.type.name).join(' |');
+    const elementTypes = types.map(typeInfo => typeInfo.type.name).join(' | ');
 
     acc+=`
     <li class="card ${elementTypes[0]}">
      <img class="card-image" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png">
-        <h2 class="card-title">${id} ${name}</h2>
+        <h2 class="card-title">${name}</h2>
         <p class="card-subtitle">${elementTypes}</p>
     </li>`
 
